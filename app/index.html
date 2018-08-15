@@ -12,28 +12,28 @@
 
 <body>
   <div class="container"> 
-    <div class="quadrant A drag-and-resize">
+    <div class="quadrant A drag-and-resize drsMoveHandle" style="left: 72px; top: 72px;">
       <div class="video-wrapper A">
         <video width="320" height="240" autoplay="autoplay" loop muted>
           <source src="videos/eye.mp4" type="video/mp4">
         </video>
       </div>
     </div>
-    <div class="quadrant B drag-and-resize">
+    <div class="quadrant B drag-and-resize drsMoveHandle" style="left: 432px; top: 130px;">
       <div class="video-wrapper B"> 
         <video width="320" height="240" autoplay="autoplay" loop muted>
           <source src="videos/nose.mp4" type="video/mp4">
         </video>
       </div>
     </div>
-    <div class="quadrant C drag-and-resize">
+    <div class="quadrant C drag-and-resize drsMoveHandle" style="left: 187px; top: 302px;">
       <div class="video-wrapper C">
         <video width="320" height="240" autoplay="autoplay" loop muted>
           <source src="videos/burger.mp4" type="video/mp4">
         </video>
       </div>
     </div>
-    <div class="quadrant D drag-and-resize">
+    <div class="quadrant D drag-and-resize drsMoveHandle" style="left: 800px; top: 280px;">
       <div class="video-wrapper D">
         <video width="320" height="240" autoplay="autoplay" loop muted> 
           <source src="videos/jordelin.mp4" type="video/mp4">
@@ -42,12 +42,10 @@
     </div>
   </div>
 
-  <script
-  src="js/lib/jquery-3.3.0.min.js"></script>
-  <script src="js/lib/interact.min.js"></script>
-  <script src="js/lib/interact.min.v2.js"></script>
+  <script src="js/lib/jquery-3.3.0.min.js"></script>
+  <script src="js/lib/dragresize.js"></script>
   <!--build:js js/main.min.js -->
-  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
   <!-- endbuild -->
 </body>
 
