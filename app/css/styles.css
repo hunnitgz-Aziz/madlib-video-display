@@ -1,2 +1,42 @@
-.testing {
-  width: 71.42857%; }
+body {
+  background-color: #000;
+  height: 100%;
+  margin: 0; }
+
+html, body {
+  min-height: 100%; }
+
+.container {
+  height: 100vh;
+  width: 100vh;
+  position: relative;
+  display: inline-block; }
+
+.quadrant {
+  position: absolute; }
+  .quadrant.A {
+    width: 100px; }
+  .quadrant.B {
+    width: 70px; }
+  .quadrant.C {
+    width: 40px; }
+  .quadrant.D {
+    width: 120px; }
+
+.video-wrapper {
+  position: relative;
+  padding-top: 25px;
+  height: 0;
+  width: 100%; }
+  .video-wrapper.A {
+    padding-bottom: 75%; }
+  .video-wrapper.B {
+    padding-bottom: 100%; }
+  .video-wrapper.C, .video-wrapper.D {
+    padding-bottom: 56.25%; }
+  .video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }

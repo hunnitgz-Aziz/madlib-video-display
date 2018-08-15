@@ -1,0 +1,19 @@
+.quadrant {
+	position: absolute;
+	
+	&.A {
+		width: 100px;
+	}
+
+	&.B {
+		width: 70px;
+	}
+
+	&.C {
+		width: 40px;
+	}
+
+	&.D {
+		width: 120px;
+	}
+}
